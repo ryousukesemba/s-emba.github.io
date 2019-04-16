@@ -1,0 +1,562 @@
+
+.Header{
+	width: 100%;
+	height: 80px;
+
+	background-color: #000;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
+}
+main{
+	font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.Header-Inner{
+	width: 90%;
+	height: 100%;
+
+	border-bottom: 1px solid #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Header-Inner__Left{
+	width: 50%;
+	height: 100%;
+
+}
+.Header-Inner__Left-HeadLine{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+}
+.Header-TextColor{
+	color: #ffbd1f;
+}
+.Header-Inner__Left-HeadLine-MainText{
+	font-size: 24px;
+	color: #fff;
+}
+.Header-Inner__Left-HeadLine-SubText{
+	font-size: 14px;
+	color: #fff;
+}
+.Header-Inner__Right{
+	width: 50%;
+	height: 100%;
+}
+.GlovalNav{
+	width: 100%;
+	height: 100%;
+
+}
+.GlovalNav-Items{
+	height: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.GlovalNav-Item{
+	font-size: 18px;
+
+}
+.GlovalNav-Item-Link{
+	text-decoration: none;
+	color: #fff;
+}
+.GlovalNav-Item:nth-of-type(4) .GlovalNav-Item-Link{
+	color: #ffbd1f;
+}
+
+.BigImageSection{
+	width: 100%;
+	height: 600px;
+}
+.BigImageSection-Inner{
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0,0,0,0.7);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.BigImageSection-Inner-TextGroup{
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	text-align: center;
+
+}
+.BigImageSection-MainText{
+	width: 100%;
+	height: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 36px;
+	color: #F2F2F2;
+	font-weight: bold;
+	line-height: 1.5em;
+
+}
+.BigImageSection-SubText{
+	width: 100%;
+	height: 50%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: #ffbd1f;
+	font-size: 24px;
+
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+.BigImageSection-SubText-Top{
+	padding-bottom: 20px;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+.BigImageSection-SubText-Bottom{
+	color: #fff;
+	font-size: 21px;
+}
+
+
+.DescriptSection{
+	width: 100%;
+	height: 740px;
+
+	background-color: #eeeeee;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+}
+.DescriptSection-Image{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.DescriptSection-Inner{
+	width: 100%;
+	height: calc(100% - 80px);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.DescriptSection-Inner-HeadLine{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.DescriptSection-Inner-HeadLine-MainText{
+	padding-bottom: 15px;
+
+	font-size: 28px;
+	font-weight: bold;
+}
+.DescriptSection-Inner-HeadLine-SubText{
+	font-size: 21px;
+	color: #888888;
+}
+.DescriptSection-Inner-DescriptionText{
+	height: auto;
+
+	line-height: 4em;
+
+	text-align: center;
+	font-size: 21px;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
+}
+.AboutSection{
+	width: 100%;
+	height: 740px;
+}
+.AboutSection-Inner{
+	width: 100%;
+	height: 100%;
+
+	background-color: #000;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.AboutSection-Inner-Top{
+	width: 100%;
+	height: 90px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+
+	background: linear-gradient(90deg , #fff , #000);
+}
+.AboutSection-Inner-Bottom{
+	width: 90%;
+	height: 100%;
+
+	background-color: #000;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.AboutSection-Inner-Left{
+	width: 45%;
+	height: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.AboutSection-Inner-Left-Image{
+	width: 70%;
+	height: 0;
+	padding-top: 70%;
+
+	background-image: url("../images/human.jpeg");
+	background-size: cover;
+	background-position: center;
+
+	background-color: #eeeeee;
+	border-radius: 50%;
+
+	border:5px solid #fff;
+}
+.AboutSection-Inner-Right{
+	width: 55%;
+	height: 80%;
+
+	color: #fff;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.AboutSection-Inner-Right-Title{
+	font-size: 30px;
+	font-weight: bold;
+}
+.AboutSection-TextColor{
+	 color: #ffbd1f;
+}
+.AboutSection-Inner-Right-Border{
+	width: 100%;
+	height: 1px;
+
+	background-color: #fff;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.AboutSection-Inner-Right-DescriotionText{
+	font-size: 18px;
+
+	color: #fff;
+
+	line-height: 1.5em;
+
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+.SkillSection{
+	width: 100%;
+	height: 740px;
+}
+.SkillSection-Inner{
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0,0,0,0.7);
+
+	padding: 60px 0;
+}
+.SkillSection-Inner-HeadLine{
+	font-size: 28px;
+	font-weight: bold;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #fff;
+
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+.SkillSection-Inner-HeadLine:before{
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #fff;
+
+	margin-right: 20px;
+}
+.SkillSection-Inner-HeadLine:after{
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #fff;
+
+	margin-left: 20px;
+}
+.SkillSection-Inner-CardGroup{
+	width: 80%;
+	height: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+.SkillSection-Inner-Card{
+	width: 30%;
+
+	color: #fff;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.SkillSection-Inner-Card-Title{
+	font-size: 24px;
+
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+.SkillSection-Inner-Card-Image{
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 40px 0;
+}
+.SkillSection-Inner-Card-Image-IMG{
+	width: 70%;
+}
+
+.SkillSection-Inner-Card-DescriptionText{
+	font-size: 21px;
+
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+
+}
+.ContactSection{
+	width: 100%;
+	height: 740px;
+
+	background-color: #eeeeee;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.ContactSection-Inner{
+	width: 100%;
+	height: calc(100% - 120px);
+
+
+}
+.ContactSection-Inner-HeadLine{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 28px;
+	font-weight: bold;
+
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+.ContactSection-Inner-HeadLine:before{
+	content: "";
+	width: 100%;
+	height: 1px;
+	background-color: #000;
+
+	margin-right: 20px;
+}
+.ContactSection-Inner-HeadLine:after{
+	content: "";
+	width: 100%;
+	height: 1px;
+	background-color: #000;
+
+	margin-left: 20px;
+}
+.ContactSection-Inner-DescriptionText{
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	font-size: 24px;
+	line-height: 2em;
+
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+.ContactSection-Inner-ContactBtn{
+	width: 455px;
+	height: 70px;
+
+	border-radius: 50px;
+	background: linear-gradient(90deg , #fff 3% , #0075be 26% , #b600ff 100%);
+
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+.Footer{
+	width: 100%;
+	height: 100px;
+
+	background-color: #000;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Footer-Text{
+	color: #fff;
+
+	font-size: 18px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) { 
+.Header-Inner{
+	justify-content: flex-start;
+}
+
+.Header-Inner__Right{
+	display: none;
+}
+
+.BigImageSection-MainText{
+	font-size: 24px;
+}
+.BigImageSection-SubText-Top{
+	font-size: 18px;
+}
+.BigImageSection-SubText-Bottom{
+	font-size: 18px;
+}
+.DescriptSection{
+	height: 700px;
+
+	background-image: url("../../resources/images/picaso.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.DescriptSection-Image{
+	display: none;
+}
+.DescriptSection-Inner{
+	justify-content: space-around;	
+}
+.DescriptSection-Inner-DescriptionText{
+	width: 90%;
+	margin: 0 auto;
+	line-height: 1.5em;
+	font-size: 21px;
+
+	text-align: left;
+}
+.AboutSection-Inner-Bottom{
+	flex-direction: column;
+
+	padding: 60px 0;
+}
+.AboutSection-Inner-Right{
+	width: 90%;
+}
+.AboutSection-Inner-Right-Title{
+	text-align: center;
+}
+.AboutSection-Inner-Right-DescriotionText{
+	font-size: 16px;
+}
+.SkillSection{
+	height: auto;
+}
+.SkillSection-Inner-CardGroup{
+	flex-direction: column;
+	width: 90%;
+}
+.SkillSection-Inner-Card{
+	width: 100%;
+
+	padding: 40px 0;
+}
+.SkillSection-Inner-Card-Image{
+	padding: 25px 0;
+}
+.SkillSection-Inner-Card-DescriptionText{
+	font-size: 18px;
+}
+
+.ContactSection-Inner-DescriptionText{
+	width: 90%;
+	margin: 0 auto;
+
+	font-size: 16px;
+}
+.ContactSection-Inner-ContactBtn{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+}
+}
