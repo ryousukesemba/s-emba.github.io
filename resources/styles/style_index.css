@@ -247,9 +247,9 @@ main{
 	height: 0;
 	padding-top: 70%;
 
-	background-image: url("../images/human.jpeg");
+	background-image: url("../images/self_photo.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: left;
 
 	background-color: #eeeeee;
 	border-radius: 50%;
@@ -476,6 +476,9 @@ main{
 
 
 @media screen and (max-width: 768px) { 
+.Header{
+	height: 60px;
+}
 .Header-Inner{
 	justify-content: flex-start;
 }
@@ -510,13 +513,22 @@ main{
 .DescriptSection-Inner-DescriptionText{
 	width: 90%;
 	margin: 0 auto;
-	line-height: 1.5em;
-	font-size: 21px;
+	line-height: 3em;
+	font-size: 16px;
 
 	text-align: left;
 }
+.AboutSection{
+	height: auto;
+}
+.AboutSection-Inner{
+	justify-content: space-between;
+}
+
 .AboutSection-Inner-Bottom{
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 	padding: 60px 0;
 }
@@ -525,9 +537,19 @@ main{
 }
 .AboutSection-Inner-Right-Title{
 	text-align: center;
+	padding: 50px 0;
+}
+.AboutSection-Inner-Left-Image{
+	min-width: 250px;
+	min-height: 250px;
+}
+.AboutSection-Inner-Right-Border{
+	margin: 0;
 }
 .AboutSection-Inner-Right-DescriotionText{
 	font-size: 16px;
+
+	padding: 40px 0;
 }
 .SkillSection{
 	height: auto;
