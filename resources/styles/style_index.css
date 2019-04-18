@@ -507,6 +507,8 @@ main{
 
 	padding-top: 40px;
 	padding-bottom: 40px;
+	padding-left: 0;
+	padding-right: 0;
 }
 .DescriptSection-Image{
 	display: none;
