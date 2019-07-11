@@ -183,7 +183,7 @@ main{
 	line-height: 4em;
 
 	text-align: center;
-	font-size: 21px;
+	font-size: 16px;
 	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 
 }
@@ -364,7 +364,7 @@ main{
 }
 
 .SkillSection-Inner-Card-DescriptionText{
-	font-size: 21px;
+	font-size: 16px;
 	line-height: 1.5em;
 
 	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
@@ -423,7 +423,7 @@ main{
 	align-items: center;
 
 	text-align: center;
-	font-size: 24px;
+	font-size: 16px;
 	line-height: 2em;
 
 	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
@@ -515,9 +515,10 @@ main{
 	width: 90%;
 	margin: 0 auto;
 	line-height: 3em;
-	font-size: 16px;
+	font-size: 13px;
 
 	text-align: left;
+	padding-top: 30px;
 }
 .AboutSection{
 	height: auto;
@@ -548,7 +549,7 @@ main{
 	margin: 0;
 }
 .AboutSection-Inner-Right-DescriotionText{
-	font-size: 16px;
+	font-size: 13px;
 
 	padding: 40px 0;
 }
@@ -568,7 +569,7 @@ main{
 	padding: 25px 0;
 }
 .SkillSection-Inner-Card-DescriptionText{
-	font-size: 18px;
+	font-size: 14px;
 }
 
 .ContactSection-Inner-DescriptionText{
