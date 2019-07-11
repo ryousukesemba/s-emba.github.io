@@ -26,7 +26,7 @@ main{
 	align-items: center;
 }
 .Header-Inner__Left{
-	width: 50%;
+	width: 100%;
 	height: 100%;
 
 }
@@ -50,15 +50,7 @@ main{
 	font-size: 14px;
 	color: #fff;
 }
-.Header-Inner__Right{
-	width: 50%;
-	height: 100%;
-}
-.GlovalNav{
-	width: 100%;
-	height: 100%;
 
-}
 .GlovalNav-Items{
 	height: 100%;
 
